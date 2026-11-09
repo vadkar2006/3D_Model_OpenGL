@@ -1,0 +1,182 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Threads::Threads::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-Threads__Threads-Debug-baab360fa9fb49a43a40.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw-Debug-4c1e0d893a66b9c384d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glfw",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw.src-Debug-8d5cee5274a107a9eb46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "external/glfw/docs",
+					"jsonFile" : "directory-external.glfw.docs-Debug-7055704eb6689eabad13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/docs"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Simulation",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Simulation-Debug-5c3abe498aafc704d426.json",
+					"name" : "Simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "glad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-glad-Debug-e55bd5413959c614faf6.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-Debug-dc5ebb33f794d9e7207a.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-uninstall-Debug-a5118a1a8a6e29980070.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-update_mappings-Debug-8ea41278069b66b2ccc9.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/C++/MSU/3D_Model/build",
+		"source" : "C:/C++/MSU/3D_Model"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}
